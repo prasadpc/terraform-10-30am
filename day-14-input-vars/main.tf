@@ -14,6 +14,6 @@ resource "aws_instance" "dev" {
 #insert varaibles while apply time
 
 
-#Note: custome tfvar process ex: dev.tfvar test.tfvar ...etc    while applying time we can call required .tfvars 
+#Note: custom tfvar process ex: dev.tfvar test.tfvar ...etc    while applying time we can call required .tfvars 
 #by defualt terraform.tfvars will work
 #ex:# terraform apply -var-file="test.tfvars"
