@@ -5,7 +5,7 @@ resource "aws_instance" "dev" {
     instance_type = var.instance_type
     key_name = var.key_name
     tags = {
-      Name = "dev-ec3"
+      Name = "developer"
     }
 }
 
