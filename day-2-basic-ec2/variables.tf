@@ -14,7 +14,3 @@ variable "key_name" {
     default = ""
   
 }
-variable "name" {
-  description = "The name of the EC2 instance."
-  default = ""
-}
